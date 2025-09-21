@@ -1,0 +1,6 @@
+1- sudo apt-get install ntpdate
+2- sudo ntpdate -s time.google.com
+3- sudo snap install google-cloud-cli --classic
+3- gcloud auth activate-service-account --key-file=/chemin/nouvelle-cle.json
+4- dbt init
+5- dbt debug
